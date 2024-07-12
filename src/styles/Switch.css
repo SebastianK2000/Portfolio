@@ -1,0 +1,18 @@
+.switch-main-container {
+    background-color: var(--bg);
+    color: var(--text);
+    box-shadow: var(--shadow);
+    /* inne style */
+}
+
+[data-theme="light"] {
+    --bg: #f5f5f5;
+    --text: #333;
+    --shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+    --bg: #333;
+    --text: #f5f5f5;
+    --shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

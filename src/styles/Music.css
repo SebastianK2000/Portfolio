@@ -1,0 +1,57 @@
+.music-main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.music-main-container button {
+    background-color: #161513;
+    color: #161513;
+    border: none;
+    transition: transform 0.5s;
+    cursor: pointer;
+    box-shadow: -3px -2px 12px 5px rgba(0, 0, 0, 1);
+    width: 64px;
+    margin: 20px;
+}
+
+.music-main-container button:hover {
+    transform: scale(1.15);
+} 
+
+.music-icon {
+    background-color: #161513;
+    color: #161513;
+}
+
+.dropdown-menu {
+    color: white;
+    padding-top: 10px;
+    font-size: 16px;
+    border: 2px solid #161513;
+    transition: background-color 0.3s;
+}
+
+.music-template-list {
+    cursor: pointer;
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: -3px -2px 12px 5px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.music-template-list p{
+    transition: transform 0.5s;
+    margin: 10px;
+}
+
+.music-template-list p:hover {
+    transform: scale(1.15);
+    color: red;
+}

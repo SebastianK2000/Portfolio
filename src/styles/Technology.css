@@ -1,0 +1,15 @@
+.technology {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-icon {
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.tech-icon:hover {
+    transform: scale(1.15);
+}

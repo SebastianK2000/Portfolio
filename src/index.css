@@ -1,0 +1,23 @@
+[data-theme="light"] {
+    --bg: white;
+    --text: #161513;
+    --shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+    --bg: #161513;
+    --text: white;
+    --shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'outfit';
+}
