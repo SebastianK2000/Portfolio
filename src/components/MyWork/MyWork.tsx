@@ -1,6 +1,7 @@
 import '../../styles/MyWork.css'
 import theme_pattern from '../../assets/theme.svg'
-import mywork_data from '../../data/mywork_data'
+// @ts-ignore
+import mywork_data from '../../data/mywork_data';
 
 interface WorkerType {
     w_img: string;
