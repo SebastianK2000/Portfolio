@@ -8,7 +8,7 @@ import Electronic from '../../assets/Electronic.wav'
 import Jazz from '../../assets/Jazz.wav'
 import music from '../../assets/music.svg'
 
-import Switch  from '../SwitchTheme/Switch'
+//import Switch  from '../SwitchTheme/Switch'
 
 const Music = () => {
     const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -46,7 +46,6 @@ const Music = () => {
 
     return (
         <div className="music-main-container">
-            <Switch />
             <button onClick={toggleDropdown}>
                 <img className="music-icon" src={music} alt="Music Button" />
             </button>

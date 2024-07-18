@@ -17,7 +17,7 @@
 
 body {
     height: 100vh;
-    background: var(--bg);
-    color: var(--text);
+    background: #161513;
+    color: white;
     font-family: 'outfit';
 }

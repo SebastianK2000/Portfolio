@@ -59,19 +59,23 @@
 .profile-resume {
     padding: 25px 45px;
     border-radius: 50px;
-    border: 2px solid var(--text);
+    border: 2px solid white;
     cursor: pointer;
-    background-color: var(--bg);
+    background-color: #161513;
 }
 
 .profile-connect:hover {
-    border: 2px solid var(--text);
+    border: 2px solid white;
 }
 
 .profile-resume:hover {
     border-color: #ff0000;
 }
 
+.text-resume {
+    text-decoration: none;
+    color: white;
+}
 
 @media (max-width: 768px) {
     .profile img {

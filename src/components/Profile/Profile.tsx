@@ -1,5 +1,6 @@
 import '../../styles/Profile.css'
 import profile_img from '../../assets/profile.png'
+import cv from '../../assets/cv.pdf'
 
 const Profile = () => {
     return (
@@ -9,7 +10,7 @@ const Profile = () => {
             <p>I have been learning frontend programming since December 2021.</p>
             <div className="profile-action">
                 <div className="profile-connect">Connect with me</div>
-                <div className="profile-resume">My resume</div>
+                <div className="profile-resume"><a className="text-resume" href={cv}>My resume</a></div>
             </div>
         </div>
     )
