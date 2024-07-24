@@ -5,6 +5,8 @@ import underline from '../../assets/underline.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open from '../../assets/menu.svg'
 import menu_close from '../../assets/close.svg'
+import { Link } from 'react-router-dom'
+
 
 const Navbar = () => {
 
@@ -32,10 +34,16 @@ const Navbar = () => {
                 <li className="menu"><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={() => setMenu("about me")}>About Me</p></AnchorLink>{menu === "about me" ? <img src={underline} alt='underline' /> : <></>}</li>
                 <li className="menu"><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={() => setMenu("portfolio")}>Portfolio</p></AnchorLink>{menu === "portfolio" ? <img src={underline} alt='underline' /> : <></>}</li>
                 <li className="menu"><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() => setMenu("contact")}>Contact</p></AnchorLink>{menu === "contact" ? <img src={underline} alt='underline' /> : <></>}</li>
-                <li className="menu"><AnchorLink className='anchor-link' offset={50} href='#services'><p onClick={() => setMenu("services")}>Services</p></AnchorLink>{menu === "services" ? <img src={underline} alt='underline' /> : <></>}</li>
+
+                <Link to="/Projects" className='anchor-link'>
+                <li className="menu">
+                    <p>Projects</p>
+                </li>
+                </Link>
+
             </ul>
 
-            <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
+            <div className="nav-connect"><a href="https://www.linkedin.com/in/sebastian-kościółek-307b081b9/" className="connect-with-me-linkedln-link">Connect With Me</a></div>
 
         </div>
     )

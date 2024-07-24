@@ -2,6 +2,7 @@ import '../../styles/MyWork.css'
 import theme_pattern from '../../assets/theme.svg'
 // @ts-ignore
 import mywork_data from '../../data/mywork_data';
+import { Link } from 'react-router-dom'
 
 interface WorkerType {
     w_img: string;
@@ -9,6 +10,7 @@ interface WorkerType {
 }
 
 const MyWork = () => {
+
     return (
         <div id='work' className="mywork">
             <div className="mywork-title">
@@ -23,7 +25,7 @@ const MyWork = () => {
                 ))}
             </div>
             <div className="mywork-showmore">
-                <p>Show More</p>
+                <p><Link to="projects" className="connect-with-me-linkedln-link">Show More</Link></p>
                 <img src="" alt="" />
             </div>
         </div>

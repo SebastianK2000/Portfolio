@@ -9,7 +9,7 @@ const Profile = () => {
             <h1><span>My name is Sebastian, </span>I'm frontend developer based in Poland (Cracow).</h1>
             <p>I have been learning frontend programming since December 2021.</p>
             <div className="profile-action">
-                <div className="profile-connect">Connect with me</div>
+                <div className="profile-connect"><a href="https://www.linkedin.com/in/sebastian-kościółek-307b081b9/" className="connect-with-me-linkedln-link">Connect with me</a></div>
                 <div className="profile-resume"><a className="text-resume" href={cv}>My resume</a></div>
             </div>
         </div>
