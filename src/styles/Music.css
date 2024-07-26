@@ -62,9 +62,12 @@
 
 @media (max-width: 768px) {
     .music-template-list {
-        display: none;
+        position: relative;
+        max-width: 80%;
+        left: 11%;
+        font-size: 15px;
     }
-    .music-main-container {
-        display: none;
+    .music-template-list p {
+        font-size: 10px;
     }
 }

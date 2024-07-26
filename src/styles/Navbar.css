@@ -14,7 +14,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: 3% 5%;
+    flex-wrap: wrap;
 }
 
 .nav-menu {
@@ -23,6 +24,7 @@
     list-style: none;
     gap: 60px;
     font-size: 20px;
+    padding: 20px;
 }
 
 .nav-connect {
@@ -32,6 +34,10 @@
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-connect:hover {
