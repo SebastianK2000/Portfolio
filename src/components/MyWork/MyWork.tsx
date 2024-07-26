@@ -15,7 +15,7 @@ const MyWork = () => {
         <div id='work' className="mywork">
             <div className="mywork-title">
                 <h1>My latest work</h1>
-                <img src={theme_pattern} alt="theme" />
+                <img className="theme-my-work" src={theme_pattern} alt="theme" />
             </div>
             <div className="mywork-container">
                 {mywork_data.map((work: WorkerType, index: number) => (

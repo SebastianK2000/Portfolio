@@ -37,7 +37,7 @@ const NavbarProjects = () => {
       <li className="menu-projects"><p>Projects</p><img src={underline} alt='underline' /></li>
     </ul>
 
-    <div className="nav-connect"><a href="https://www.linkedin.com/in/sebastian-kościółek-307b081b9/" className="connect-with-me-linkedln-link">Connect With Me</a></div>
+    <div className="nav-connect"><a href="https://www.linkedin.com/in/sebastian-kościółek-307b081b9/" target="_blank" className="connect-with-me-linkedln-link">Connect With Me</a></div>
   </div>
     )
 }

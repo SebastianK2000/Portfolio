@@ -13,3 +13,9 @@
 .tech-icon:hover {
     transform: scale(1.15);
 }
+
+@media (max-width: 768px) {
+    .technology {
+        flex-direction: column;
+    }
+}

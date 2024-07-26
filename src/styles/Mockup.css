@@ -6,3 +6,24 @@
     font-weight: 500;
     font-size: 40px;
 }
+
+@media (max-width: 768px) {
+    .project-destination-h1 {
+        font-size: 25px;
+    }
+    .mockup-icon-github {
+        max-width: 200%;
+    }
+    .mockup-icon-figma {
+        max-width: 200%;
+        position: relative;
+        right: 20%;
+    }
+    .social-media-mockup-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+}

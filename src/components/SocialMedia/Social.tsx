@@ -7,15 +7,15 @@ const Social = () => {
     return (
             <div className="social-media-container">
             
-                <a href="mailto:sebastian.kosciolek2000@gmail.com" className="social-media-icon-gmail">
+                <a href="mailto:sebastian.kosciolek2000@gmail.com"className="social-media-icon-gmail">
                     <img src={gmail} alt="Gmail" />
                 </a>
             
-                <a href="https://github.com/SebastianK2000" className="social-media-icon-github">
+                <a href="https://github.com/SebastianK2000" target="_blank" className="social-media-icon-github">
                     <img src={github} alt="GitHub" />
                 </a>
 
-                <a href="https://www.linkedin.com/in/sebastian-kościółek-307b081b9/" className="social-media-icon-linkedin">
+                <a href="https://www.linkedin.com/in/sebastian-kościółek-307b081b9/" target="_blank" className="social-media-icon-linkedin">
                     <img src={linkedin} alt="Linkedln" />
                 </a>
 

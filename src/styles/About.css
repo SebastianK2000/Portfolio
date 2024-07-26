@@ -151,6 +151,8 @@
     }
     .about-achievements {
         justify-content: space-between;
+        position: relative;
+        right: 7%;
     }
     .about-achievement {
         gap: 10px;

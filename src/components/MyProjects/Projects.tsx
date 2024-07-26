@@ -9,16 +9,18 @@ import frontend from '../../assets/frontend.svg'
 import backend from '../../assets/backend.svg'
 import game from '../../assets/game.svg'
 import mockup from '../../assets/mockup.svg'
+import Music from '../MusicButton/Music.js';
 
 const Projects = () => {
 
   return (
     <section>
+      <Music />
       <NavbarProjects />
       <div id='work' className="mywork-projects">
         <div className="mywork-title-projects">
           <h1>My Projects</h1>
-          <img src={theme_pattern} alt="theme pattern" />
+          <img className="my-project-img-theme" src={theme_pattern} alt="theme pattern" />
         </div>
         <div className="mywork-container-projects">
               <Link to="/frontend"><img src={ frontend } alt="Fontend" /></Link>

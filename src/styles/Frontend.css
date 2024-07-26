@@ -5,3 +5,21 @@
     font-weight: 500;
     font-size: 40px;
 }
+
+@media (max-width: 768px) {
+    .more-project-icon-github {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        max-width: 100%;
+    }
+    .more-projects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+

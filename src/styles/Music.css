@@ -1,6 +1,6 @@
 .music-main-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
@@ -32,6 +32,7 @@
     font-size: 16px;
     border: 2px solid #161513;
     transition: background-color 0.3s;
+    position: absolute;
 }
 
 .music-template-list {
@@ -44,6 +45,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    left: 37%;
+    right: 67%;
 }
 
 .music-template-list p{
@@ -54,4 +58,13 @@
 .music-template-list p:hover {
     transform: scale(1.15);
     color: red;
+}
+
+@media (max-width: 768px) {
+    .music-template-list {
+        display: none;
+    }
+    .music-main-container {
+        display: none;
+    }
 }

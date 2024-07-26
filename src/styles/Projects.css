@@ -153,8 +153,12 @@
     }
     .mywork-title-projects h1 {
         padding: 0;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 600;
+    }
+    .my-project-img-theme {
+        width: 60%;
+        height: 100%;
     }
     .mywork-container-projects {
         grid-template-columns: 1fr 1fr;

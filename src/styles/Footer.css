@@ -98,15 +98,40 @@
     .footer-top-right {
         display: flex;
         flex-direction: column;
-        align-items: start;
+        position: relative;
+        right: 20%;
+        width: 50%;
     }
     .footer-top-right input{
-        width: 80px;
+        font-size: 15px;
+        width: 70px;
+        position: relative;
+        left: 27px;
     }
     .user_icon {
         display: none;
     }
     .footer-email-input:hover {
         border: none;
+    }
+    .footer-email-input {
+        width: 1%;
+        height: 1%;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 100px;
+    }
+    .footer-subscribe {
+        width: 85%;
+        height: 1%;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 95px;
     }
 }
