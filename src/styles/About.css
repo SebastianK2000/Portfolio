@@ -150,9 +150,9 @@
         height: 6px;
     }
     .about-achievements {
+        display: flex;
+        align-items: center;
         justify-content: space-between;
-        position: relative;
-        right: 7%;
     }
     .about-achievement {
         gap: 10px;
