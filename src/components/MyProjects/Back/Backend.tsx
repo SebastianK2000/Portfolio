@@ -7,13 +7,11 @@ import hr from '../../../assets/hr.svg'
 import library from '../../../assets/library.svg'
 import crud from '../../../assets/crud.svg'
 import progress from '../../../assets/progress.svg'
-import Music from '../../MusicButton/Music';
 
 
 const Backend = () => {
     return (
         <div>
-            <Music />
             <NavbarProjects />
             <div id='work' className="mywork-projects">
                     <div className="mywork-container-projects">

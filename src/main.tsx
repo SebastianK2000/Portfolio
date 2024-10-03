@@ -12,12 +12,10 @@ import Frontend from './components/MyProjects/Front/Frontend.tsx';
 import Backend from './components/MyProjects/Back/Backend.tsx';
 import Game from './components/MyProjects/Game/Game.tsx';
 import Mockup from './components/MyProjects/Mockup/Mockup.tsx';
-import { SoundProvider } from './components/MusicButton/SoundContext.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
-    <SoundProvider>
         <Routes>
           <Route index element={<App />} />
           <Route path="app" element={<App />} />
@@ -29,7 +27,6 @@ createRoot(document.getElementById('root')!).render(
           <Route path="backend" element={<Backend />} />
           <Route path="frontend" element={<Frontend />} />
         </Routes>
-      </SoundProvider>
     </BrowserRouter>
   </React.StrictMode>,
 );

@@ -6,13 +6,11 @@ import tictactoe from '../../../assets/tictactoe.svg'
 import tetris from '../../../assets/tetris.svg'
 import memory from '../../../assets/memory.svg'
 import tennis from '../../../assets/tennis.svg'
-import Music from '../../MusicButton/Music';
 
 
 const Game = () => {
     return (
         <div>
-            <Music />
             <NavbarProjects />
                 <div id='work' className="mywork-projects">
                     <div className="mywork-container-projects">

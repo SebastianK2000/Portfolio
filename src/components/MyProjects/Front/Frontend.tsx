@@ -7,12 +7,10 @@ import manuskrypt from '../../../assets/manuskrypt.svg'
 import bubleform from '../../../assets/loginForm.svg'
 import bookposse from '../../../assets/bookposse.svg'
 import interactiveCard from '../../../assets/interactiveCard.svg'
-import Music from '../../MusicButton/Music';
 
 const Frontend = () => {
     return (
         <div>
-            <Music />
             <NavbarProjects />
                 <div id='work' className="mywork-projects">
                     <div className="mywork-container-projects">

@@ -4,13 +4,11 @@ import NavbarProjects from '../../Navbar/NavbarProjects';
 
 import github from '../../../assets/github-142-svgrepo-com.svg'
 import figma from '../../../assets/figma-mockup-site.svg'
-import Music from '../../MusicButton/Music';
 
 
 const Mockup = () => {
     return (
         <div>
-            <Music />
             <NavbarProjects />
                 <h1 className="project-destination-h1">Select project destination</h1>
                 <div className="social-media-mockup-container">

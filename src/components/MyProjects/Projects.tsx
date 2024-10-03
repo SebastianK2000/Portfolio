@@ -9,13 +9,11 @@ import frontend from '../../assets/frontend.svg'
 import backend from '../../assets/backend.svg'
 import game from '../../assets/game.svg'
 import mockup from '../../assets/mockup.svg'
-import Music from '../MusicButton/Music.js';
 
 const Projects = () => {
 
   return (
     <section>
-      <Music />
       <NavbarProjects />
       <div id='work' className="mywork-projects">
         <div className="mywork-title-projects">
